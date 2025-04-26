@@ -1,0 +1,22 @@
+{
+    "glossary": {
+      "title": "Contoh Daftar Istilah",
+      "GlossDiv": {
+        "title": "S",
+        "GlossList": {
+          "GlossEntry": {
+            "ID": "SGML",
+            "SortAs": "SGML",
+            "GlossTerm": "Standard Generalized Markup Language",
+            "Acronym": "SGML",
+            "Abbrev": "ISO 8879:1986",
+            "GlossDef": {
+              "para": "Bahasa standar untuk mendefinisikan struktur dokumen.",
+              "GlossSeeAlso": ["GML", "XML"]
+            },
+            "GlossSee": "markup"
+          }
+        }
+      }
+    }
+  }

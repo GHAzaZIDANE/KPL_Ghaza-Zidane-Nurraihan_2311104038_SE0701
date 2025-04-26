@@ -1,0 +1,25 @@
+{
+  "teamMembers": [
+    {
+      "nim": "2311104038",
+      "firstName": "Ghaza Zidane",
+      "lastName": "Nurraihan",
+      "age": 20,
+      "gender": "Male"
+    },
+    {
+      "nim": "2311104039",
+      "firstName": "Siti",
+      "lastName": "surgawi",
+      "age": 21,
+      "gender": "Female"
+    },
+    {
+      "nim": "2311104040",
+      "firstName": "adelia",
+      "lastName": "pertiwi",
+      "age": 21,
+      "gender":"Female"
+    }
+  ]
+} 
