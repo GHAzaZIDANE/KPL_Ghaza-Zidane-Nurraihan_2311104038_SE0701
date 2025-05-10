@@ -1,0 +1,26 @@
+{
+  "name": "kpl_ghaza-zidane-nurraihan_2311104038_se0701",
+  "version": "1.0.0",
+  "description": "Mata kuliah _Software Construction_ bertujuan untuk memperkenalkan konsep konstruksi perangkat lunak di tingkat sarjana rekayasa perangkat lunak. Kuliah ini membahas konsep fundamental, manajemen, pertimbangan praktis, teknologi, dan tools yang dapat digunakan untuk melakukan konstruksi perangkat lunak yang baik.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GHAzaZIDANE/KPL_Ghaza-Zidane-Nurraihan_2311104038_SE0701.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GHAzaZIDANE/KPL_Ghaza-Zidane-Nurraihan_2311104038_SE0701/issues"
+  },
+  "homepage": "https://github.com/GHAzaZIDANE/KPL_Ghaza-Zidane-Nurraihan_2311104038_SE0701#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
