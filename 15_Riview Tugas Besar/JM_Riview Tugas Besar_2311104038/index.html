@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Login & Register</title>
+  <style>
+    body { font-family: sans-serif; margin: 20px; }
+    input { display: block; margin-bottom: 10px; width: 100%; padding: 8px; }
+    button { padding: 10px; margin-top: 10px; width: 100%; }
+  </style>
+</head>
+<body>
+  <h2>Registrasi</h2>
+  <input type="text" id="regUsername" placeholder="Username">
+  <input type="password" id="regPassword" placeholder="Password">
+  <button onclick="register()">Register</button>
+
+  <h2>Login</h2>
+  <input type="text" id="loginUsername" placeholder="Username">
+  <input type="password" id="loginPassword" placeholder="Password">
+  <button onclick="login()">Login</button>
+
+  <p id="result"></p>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
