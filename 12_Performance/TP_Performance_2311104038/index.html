@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Tanda Bilangan</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 30px; }
+    input, button { padding: 8px; margin-top: 10px; }
+    #outputLabel { margin-top: 15px; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h2>Menentukan Tanda Bilangan</h2>
+
+  <input type="text" id="inputBox" placeholder="Masukkan angka" />
+
+  <button onclick="tampilkanTanda()">Tentukan</button>
+
+  <p id="outputLabel">Output akan tampil di sini</p>
+
+  <script>
+    function CariTandaBilangan(a) {
+      if (a < 0) return "Negatif";
+      if (a > 0) return "Positif";
+      return "Nol";
+    }
+
+    function tampilkanTanda() {
+      const input = document.getElementById("inputBox").value;
+      const angka = parseInt(input);
+
+      if (isNaN(angka)) {
+        document.getElementById("outputLabel").innerText = "Input bukan angka!";
+        return;
+      }
+
+      const hasil = CariTandaBilangan(angka);
+      document.getElementById("outputLabel").innerText = "Hasil: " + hasil;
+    }
+  </script>
+</body>
+</html>
